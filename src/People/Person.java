@@ -1,4 +1,5 @@
 package People;
+import Enum.*;
 
 public abstract class Person {
     String name;
@@ -10,4 +11,8 @@ public abstract class Person {
     public String getName() {
         return name;
     }
+
+
+    public abstract void sit();
 }
+

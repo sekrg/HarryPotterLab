@@ -1,4 +1,6 @@
 package ActiveObjects;
+import Buildings.Hogwarts;
+import Enum.*;
 
 public class Benchs {
     private String name;
@@ -12,5 +14,9 @@ public class Benchs {
     }
     public void up(){
         System.out.println("Вдоль стен до самого потолка амфитеатром поднимаются скамьи, заполненные волшебниками и волшебницами, посредине — пустое кресло, с подлокотников которого свисают цепи.");
+    }
+    public void be(){
+        Hogwarts y = new Hogwarts("Хогвартсе");
+        System.out.println("На скамьях только взрослые, а в "+y.getName()+" учителей раз в десять меньше.");
     }
 }

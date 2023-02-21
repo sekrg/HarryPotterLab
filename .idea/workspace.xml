@@ -4,23 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="723f34a9-cf85-4f8d-9ffd-e321dc70660f" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActiveObjects/Benchs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActiveObjects/Gas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActiveObjects/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/MagicObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Enum/Places.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/People/AlbusDombldor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/People/HarryPotter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/People/Person.java" afterDir="false" />
+    <list default="true" id="723f34a9-cf85-4f8d-9ffd-e321dc70660f" name="Changes" comment="2">
+      <change afterPath="$PROJECT_DIR$/src/Buildings/Hogwarts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/HeartStopException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/TimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/People/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Ibent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Ibreathe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Icome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Ifeel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Ifly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Ifound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Ilightable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Iopen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Ipull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Iretrieved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Irotate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Isaw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Iscarred.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Ishove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Istand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Italk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Iwaited.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Iwant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AlbusDombldor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HarryPotter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MagicObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActiveObjects/Benchs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActiveObjects/Benchs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActiveObjects/Gas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActiveObjects/Gas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActiveObjects/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActiveObjects/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/MagicObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/MagicObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum/Places.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Places.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/People/AlbusDombldor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/People/AlbusDombldor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/People/HarryPotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/People/HarryPotter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/People/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/People/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +74,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/"
   }
 }]]></component>
   <component name="RunManager">
@@ -83,6 +101,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676723931093</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1676756869293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676756869293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +121,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>
