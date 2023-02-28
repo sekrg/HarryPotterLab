@@ -9,14 +9,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="723f34a9-cf85-4f8d-9ffd-e321dc70660f" name="Changes" comment="Second_finish_update(equals,hashcode)">
+    <list default="true" id="723f34a9-cf85-4f8d-9ffd-e321dc70660f" name="Changes" comment="removed_some_interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/activeobjects/Benchs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeobjects/Benchs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/activeobjects/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeobjects/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buildings/Hogwarts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buildings/Hogwarts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/enums/MagicObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/MagicObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Pull.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/people/AlbusDombldor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/AlbusDombldor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Breathe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Come.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Feel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Found.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Found.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Scarred.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Shove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Stand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Stand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Waited.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Want.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/lightable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/lightable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/people/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/HarryPotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/HarryPotter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -112,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677577582416</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="removed_some_interface">
+      <created>1677590487402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677590487402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +149,7 @@
     <MESSAGE value="2" />
     <MESSAGE value="First_finish_update" />
     <MESSAGE value="Second_finish_update(equals,hashcode)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second_finish_update(equals,hashcode)" />
+    <MESSAGE value="removed_some_interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed_some_interface" />
   </component>
 </project>

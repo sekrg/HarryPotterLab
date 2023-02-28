@@ -1,7 +1,9 @@
 package activeobjects;
 import buildings.Hogwarts;
+import activeobjects.*;
 
 public class Benchs {
+
     private String name;
 
     public Benchs() {

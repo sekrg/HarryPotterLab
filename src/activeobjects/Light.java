@@ -1,6 +1,7 @@
 package activeobjects;
 import buildings.Hogwarts;
 import interfaces.lightable;
+import enums.*;
 
 public class Light implements lightable {
     private String name;
@@ -21,6 +22,5 @@ public class Light implements lightable {
     public String shiny(){
         return ""+getName()+" идет от факелов";
     }
-
 
 }

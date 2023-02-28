@@ -1,11 +1,9 @@
 package people;
-import interfaces.Waited;
 
-public class Group extends Person implements Waited {
+public class Group extends Person {
     public Group() {
         super("Толпа");
     }
-    @Override
     public void waited (){
         System.out.println("Люди явно чего-то ждут: сидят молча, глаза у всех устремлены в одном направлении.");
     }

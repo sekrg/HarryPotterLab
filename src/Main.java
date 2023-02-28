@@ -23,12 +23,12 @@ public class Main {
 
         harryPotter.lookup();
         harryPotter.saw(MagicObjects.HAT);
-        harryPotter.found(MagicObjects.SWORD);
+        harryPotter.found(MagicObjects.SWORD, MagicObjects.CASE, MagicObjects.WEAPON);
         harryPotter.extract(MagicObjects.HAT, MagicObjects.SWORD);
         harryPotter.rotate();
         harryPotter.saw(MagicObjects.PHOENIX);
         harryPotter.stand();
-        harryPotter.come();
+        harryPotter.come(MagicObjects.WARDROBE);
         harryPotter.open(MagicObjects.BOTTLE);
         gas.light();
         harryPotter.notsaw();

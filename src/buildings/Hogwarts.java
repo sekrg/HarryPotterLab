@@ -1,4 +1,5 @@
 package buildings;
+import enums.*;
 
 public class Hogwarts {
     private String name;
@@ -25,13 +26,12 @@ public class Hogwarts {
 
     public static class hall{
         private String name;
-
         public hall(String name) {
             this.name = name;
         }
-
         public String getName() {
             return name;
         }
     }
 }
+

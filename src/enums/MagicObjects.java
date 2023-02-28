@@ -5,7 +5,10 @@ public enum MagicObjects {
     SWORD("меч Годрика Гриффиндора"),
     PHOENIX("Фоукс"),
     STICK("Волебшная палочка"),
-    BOTTLE("Сосуд");
+    BOTTLE("Сосуд"),
+    CASE("Футляре"),
+    WARDROBE("Шкафчику"),
+    WEAPON("Серебрянный мечь");
 
     private String name;
 
