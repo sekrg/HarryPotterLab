@@ -1,58 +1,58 @@
-import ActiveObjects.Benchs;
-import ActiveObjects.Gas;
-import ActiveObjects.Light;
-import Exceptions.TimeException;
-import People.*;
-import Enum.*;
+import activeobjects.Benchs;
+import activeobjects.Gas;
+import activeobjects.Light;
+import exceptions.TimeException;
+import people.*;
+import enums.*;
 
 public class Main {
     public static void main(String[] args) throws Throwable {
-        Person x = new HarryPotter("Гарри Поттер");
-        Person q = new AlbusDombldor("Альбус Дамблдор");
-        Person v = new Group("Люди");
-        Gas z = new Gas();
-        Light y = new Light();
-        Benchs c = new Benchs();
-        ((HarryPotter) x).feel();
+        Person harryPotter = new HarryPotter();
+        Person albusDombldor = new AlbusDombldor();
+        Person group = new Group();
+        Gas gas = new Gas();
+        Light light = new Light();
+        Benchs benchs = new Benchs();
+        ((HarryPotter) harryPotter).feel();
 
         try{
-            ((HarryPotter) x).talk((int) (Math.random()*60));
+            ((HarryPotter) harryPotter).talk((int) (Math.random()*60));
         } catch(TimeException ex){
             System.out.println(ex.getMessage());
         }
 
-        ((HarryPotter) x).lookup();
-        ((HarryPotter) x).saw(MagicObjects.HAT);
-        ((HarryPotter) x).found(MagicObjects.SWORD);
-        ((HarryPotter) x).retrieved(MagicObjects.HAT);
-        ((HarryPotter) x).rotate();
-        ((HarryPotter) x).saw(MagicObjects.PHOENIX);
-        ((HarryPotter) x).stand();
-        ((HarryPotter) x).come();
-        ((HarryPotter) x).open(MagicObjects.BOTTLE);
-        z.light();
-        ((HarryPotter) x).notsaw();
-        z.rotated();
-        ((HarryPotter) x).want();
-        ((HarryPotter) x).pull(MagicObjects.STICK);
-        z.spin();
-        ((HarryPotter) x).shove();
-        ((HarryPotter) x).saw();
-        ((HarryPotter) x).bent();
-        y.light();
-        c.up();
-        ((HarryPotter) x).scarred();
-        c.be();
-        ((Group) v).waited();
-        ((HarryPotter) x).notsaw(MagicObjects.BOTTLE);
-        ((HarryPotter) x).bend();
-        ((HarryPotter) x).fly(MagicObjects.BOTTLE);
-        x.sit();
-        ((HarryPotter) x).lookupp();
-        ((HarryPotter) x).breathe();
-        v.sit();
-        ((HarryPotter) x).rotated();
-        q.sit();
+        ((HarryPotter) harryPotter).lookup();
+        ((HarryPotter) harryPotter).saw(MagicObjects.HAT);
+        ((HarryPotter) harryPotter).found(MagicObjects.SWORD);
+        ((HarryPotter) harryPotter).extract(MagicObjects.HAT, MagicObjects.SWORD);
+        ((HarryPotter) harryPotter).rotate();
+        ((HarryPotter) harryPotter).saw(MagicObjects.PHOENIX);
+        ((HarryPotter) harryPotter).stand();
+        ((HarryPotter) harryPotter).come();
+        ((HarryPotter) harryPotter).open(MagicObjects.BOTTLE);
+        gas.light();
+        ((HarryPotter) harryPotter).notsaw();
+        gas.rotated();
+        ((HarryPotter) harryPotter).want();
+        ((HarryPotter) harryPotter).pull(MagicObjects.STICK);
+        gas.spin();
+        ((HarryPotter) harryPotter).shove();
+        ((HarryPotter) harryPotter).saw();
+        ((HarryPotter) harryPotter).bent();
+        light.light();
+        benchs.up();
+        ((HarryPotter) harryPotter).scarred();
+        benchs.be();
+        ((Group) group).waited();
+        ((HarryPotter) harryPotter).notsaw(MagicObjects.BOTTLE);
+        ((HarryPotter) harryPotter).bend();
+        ((HarryPotter) harryPotter).fly(MagicObjects.BOTTLE);
+        harryPotter.sit();
+        ((HarryPotter) harryPotter).lookupp();
+        ((HarryPotter) harryPotter).breathe();
+        group.sit();
+        ((HarryPotter) harryPotter).rotated();
+        albusDombldor.sit();
 
     }
 }
