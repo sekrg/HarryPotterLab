@@ -1,5 +1,9 @@
 package people;
 
+import enums.MagicObjects;
+
+import java.util.Objects;
+
 public abstract class Person {
     String name;
 
@@ -13,5 +17,18 @@ public abstract class Person {
 
 
     public abstract void sit();
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        return obj == this;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
+    }
 }
 

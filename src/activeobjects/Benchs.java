@@ -18,4 +18,5 @@ public class Benchs {
         Hogwarts y = new Hogwarts("Хогвартсе");
         System.out.println("На скамьях только взрослые, а в "+y.getName()+" учителей раз в десять меньше.");
     }
+
 }

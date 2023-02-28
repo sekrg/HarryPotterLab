@@ -9,38 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="723f34a9-cf85-4f8d-9ffd-e321dc70660f" name="Changes" comment="2">
+    <list default="true" id="723f34a9-cf85-4f8d-9ffd-e321dc70660f" name="Changes" comment="First_finish_update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActiveObjects/Benchs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeobjects/Benchs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActiveObjects/Gas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeobjects/Gas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActiveObjects/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeobjects/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Buildings/Hogwarts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buildings/Hogwarts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/MagicObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/MagicObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/HeartStopException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/HeartStopException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/TimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/TimeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/People/AlbusDombldor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/AlbusDombldor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/People/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/People/HarryPotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/HarryPotter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/People/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Ibent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Bent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Ibreathe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Breathe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Icome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Come.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Ifeel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Feel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Ifly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Fly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Ifound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Found.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Ilightable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/lightable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Iopen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Open.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Ipull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Pull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Iretrieved.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Extract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Irotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Rotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Isaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Saw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Iscarred.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Scarred.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Ishove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Shove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Istand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Stand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Italk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Talk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Iwaited.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Waited.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Iwant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Want.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/activeobjects/Benchs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeobjects/Benchs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/activeobjects/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeobjects/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/MagicObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/MagicObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/people/AlbusDombldor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/AlbusDombldor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/people/HarryPotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/HarryPotter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676982185318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First_finish_update">
+      <created>1677573858305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677573858305</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="First_finish_update" />
+    <option name="LAST_COMMIT_MESSAGE" value="First_finish_update" />
   </component>
 </project>

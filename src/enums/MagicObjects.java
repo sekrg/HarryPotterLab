@@ -17,4 +17,5 @@ public enum MagicObjects {
     public String toString() {
         return name;
     }
+
 }

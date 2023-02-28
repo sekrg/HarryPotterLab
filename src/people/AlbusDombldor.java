@@ -10,4 +10,6 @@ public class AlbusDombldor extends Person {
         System.out.println("Рядом сидел " + getName() + ".");
 
     }
+
+
 }

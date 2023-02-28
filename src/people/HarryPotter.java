@@ -143,4 +143,7 @@ public class HarryPotter extends Person implements Feel, Talk, Found, Extract, R
         System.out.println("И вот " + getName() + " уже сидит на верхней скамье в том самом зале, который только что разглядывал сверху.");
 
     }
+
+
+
 }

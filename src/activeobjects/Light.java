@@ -22,4 +22,5 @@ public class Light implements lightable {
         return ""+getName()+" идет от факелов";
     }
 
+
 }
