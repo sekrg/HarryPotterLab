@@ -18,4 +18,6 @@ public enum MagicObjects {
         return name;
     }
 
+
+
 }

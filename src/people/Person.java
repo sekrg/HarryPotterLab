@@ -31,4 +31,3 @@ public abstract class Person {
         return Objects.hash(name);
     }
 }
-

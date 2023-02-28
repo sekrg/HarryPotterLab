@@ -4,7 +4,7 @@ import buildings.*;
 import exceptions.*;
 import interfaces.*;
 
-public class HarryPotter extends Person implements Feel, Talk, Found, Extract, Rotate, Saw, Stand, Bent, Breathe, Come, Open, Pull, Scarred, Shove, Want, Fly {
+public class HarryPotter extends Person implements Feel, Talk, Found, Extract, Rotate, Saw, Stand, Bent, Breathe, Come, Open, Scarred, Shove, Want, Fly {
 
     public HarryPotter() {
         super("Гарри Поттер");
@@ -79,7 +79,6 @@ public class HarryPotter extends Person implements Feel, Talk, Found, Extract, R
         System.out.println("" + getName() + " очень захотел провести по нему ладонью, ощутить пальцами, но почти четыре года в Школе чародейства и волшебства подсказали: окунать руку в сосуд непонятно с чем было бы верхом глупости.");
     }
 
-    @Override
     public void pull(MagicObjects x) {
         System.out.println("" + getName() + " вытащил " + x.toString() + ", настороженно огляделся и легонько ткнул содержимое палочкой");
     }

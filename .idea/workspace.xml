@@ -9,11 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="723f34a9-cf85-4f8d-9ffd-e321dc70660f" name="Changes" comment="First_finish_update">
+    <list default="true" id="723f34a9-cf85-4f8d-9ffd-e321dc70660f" name="Changes" comment="Second_finish_update(equals,hashcode)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activeobjects/Benchs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeobjects/Benchs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activeobjects/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activeobjects/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/enums/MagicObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/MagicObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Pull.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/AlbusDombldor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/AlbusDombldor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/HarryPotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/HarryPotter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Person.java" afterDir="false" />
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677573858305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second_finish_update(equals,hashcode)">
+      <created>1677577582416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677577582416</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +130,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="First_finish_update" />
-    <option name="LAST_COMMIT_MESSAGE" value="First_finish_update" />
+    <MESSAGE value="Second_finish_update(equals,hashcode)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second_finish_update(equals,hashcode)" />
   </component>
 </project>

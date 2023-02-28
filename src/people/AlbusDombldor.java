@@ -1,6 +1,7 @@
 package people;
+import interfaces.*;
 
-public class AlbusDombldor extends Person {
+public class AlbusDombldor extends Person implements Stand {
     public AlbusDombldor() {
         super("Альбус Дамблдор");
     }
@@ -12,4 +13,8 @@ public class AlbusDombldor extends Person {
     }
 
 
+    @Override
+    public void stand() {
+        System.out.println(""+getName()+" стоит");
+    }
 }
