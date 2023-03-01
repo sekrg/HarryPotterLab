@@ -14,9 +14,10 @@ public class Light implements lightable {
         return name;
     }
     public void light(){
-        Hogwarts.hall x = new Hogwarts.hall("Зал");
+        Hogwarts.hall x = new Hogwarts.hall("Зал", RoomStatus.DARK);
         Hogwarts y = new Hogwarts("Хогвартсе");
         System.out.println(""+x.getName()+" был скудно освещен; что-то вроде подземелья без окон, "+shiny()+" , развешанным по стенам, точь-в-точь такие, как в "+y.getName()+"");
+        x.setRoomstatus(RoomStatus.LIGHT);
 
     }
     public String shiny(){

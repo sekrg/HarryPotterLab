@@ -10,6 +10,7 @@ public enum MagicObjects {
     WARDROBE("Шкафчику"),
     WEAPON("Серебрянный мечь");
 
+
     private String name;
 
     MagicObjects(String name) {
