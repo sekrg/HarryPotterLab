@@ -23,8 +23,8 @@ public class HarryPotter extends Person implements Talk, Stand {
         if (x>= 30) throw ex;
     }
 
-    public void lookup() {
-        System.out.println("" + getName() + " вскинул глаза на стену позади стола.");
+    public void lookup(Interior x) {
+        System.out.println("" + getName() + " вскинул глаза на стену позади "+x.toString()+".");
     }
 
     public void found(MagicObjects x, MagicObjects y, MagicObjects z) {
@@ -41,7 +41,7 @@ public class HarryPotter extends Person implements Talk, Stand {
 
     public void saw(MagicObjects x) {
         if (x.equals(MagicObjects.PHOENIX)) {
-            System.out.println("" + getName() + " бросил взгляд на Фоукса.");
+            System.out.println("" + getName() + " бросил взгляд на "+x.toString()+".");
         } else if (x.equals(MagicObjects.HAT)) {
             System.out.println("и увидел на полке старую, залатанную " + x.toString() + ".");
 

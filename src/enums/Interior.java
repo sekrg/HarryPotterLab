@@ -1,8 +1,13 @@
 package enums;
 
+import activeobjects.Benchs;
+
 public enum Interior {
-    DOOR("Дверь"),
-    WARDROBE("Шкафчику");
+    DOOR("дверь"),
+    WARDROBE("шкафчику"),
+    TABLE("стола"),
+    BENCHS("скамьи");
+
 
     private String name;
 

@@ -21,7 +21,7 @@ public class Main {
             System.out.println(ex.getMessage());
         }
 
-        harryPotter.lookup();
+        harryPotter.lookup(Interior.TABLE);
         harryPotter.saw(MagicObjects.HAT);
         harryPotter.found(MagicObjects.SWORD, MagicObjects.CASE, MagicObjects.WEAPON);
         harryPotter.extract(MagicObjects.HAT, MagicObjects.SWORD);
@@ -40,7 +40,7 @@ public class Main {
         harryPotter.saw();
         harryPotter.bent();
         light.light();
-        benchs.up();
+        benchs.up(Interior.BENCHS);
         harryPotter.scarred();
         benchs.be();
         group.waited();
