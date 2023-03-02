@@ -7,7 +7,6 @@ public enum MagicObjects {
     STICK("Волебшная палочка"),
     BOTTLE("Сосуд"),
     CASE("Футляре"),
-    WARDROBE("Шкафчику"),
     WEAPON("Серебрянный мечь");
 
 

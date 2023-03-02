@@ -28,8 +28,8 @@ public class Main {
         harryPotter.rotate();
         harryPotter.saw(MagicObjects.PHOENIX);
         harryPotter.stand();
-        harryPotter.come(MagicObjects.WARDROBE);
-        harryPotter.open(MagicObjects.BOTTLE);
+        harryPotter.come(Interior.WARDROBE);
+        harryPotter.open(MagicObjects.BOTTLE, Interior.DOOR);
         gas.light();
         harryPotter.notsaw();
         gas.rotated();

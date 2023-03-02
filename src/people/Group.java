@@ -1,8 +1,8 @@
 package people;
 import buildings.*;
-import enums.RoomStatus;
+import interfaces.Sit;
 
-public class Group extends Person {
+public class Group extends Person implements Sit {
     public Group() {
         super("Толпа");
     }

@@ -1,10 +1,11 @@
 package people;
+import enums.Interior;
 import enums.MagicObjects;
 import buildings.*;
 import exceptions.*;
 import interfaces.*;
 
-public class HarryPotter extends Person implements Talk, Found, Extract, Rotate, Saw, Bent, Stand, Open, Fly {
+public class HarryPotter extends Person implements Talk, Stand {
 
     public HarryPotter() {
         super("Гарри Поттер");
@@ -22,27 +23,22 @@ public class HarryPotter extends Person implements Talk, Found, Extract, Rotate,
         if (x>= 30) throw ex;
     }
 
-    @Override
     public void lookup() {
         System.out.println("" + getName() + " вскинул глаза на стену позади стола.");
     }
 
-    @Override
     public void found(MagicObjects x, MagicObjects y, MagicObjects z) {
         System.out.println("Рядом с ней в стеклянном "+y.toString()+" покоился украшенный рубинами "+z.toString()+"." + getName() + " сразу узнал его — " + x.toString() + ", основателя их факультета.");
     }
 
-    @Override
     public void extract(MagicObjects x, MagicObjects y) {
         System.out.println("Это " +y.toString() + " " + getName() + " извлек тогда в подземелье из " + x.toString() + ". ");
     }
 
-    @Override
     public void rotate() {
         System.out.println("" + getName() + " обернулся назад — черный шкафчик на подставке неплотно закрыт, из щелки падает яркая мерцающая полоска света.");
     }
 
-    @Override
     public void saw(MagicObjects x) {
         if (x.equals(MagicObjects.PHOENIX)) {
             System.out.println("" + getName() + " бросил взгляд на Фоукса.");
@@ -57,16 +53,14 @@ public class HarryPotter extends Person implements Talk, Found, Extract, Rotate,
         System.out.println("Встал из-за стола.");
     }
 
-    public void come(MagicObjects x) {
+    public void come(Interior x) {
         System.out.println("Подошел к "+x.toString()+".");
     }
 
-    @Override
-    public void open(MagicObjects x) {
-        System.out.println("Решительно потянул на себя дверцу. Внутри стоял неглубокий каменный " + x.toString() + ", опоясанный по краю резными письменами и символами.");
+    public void open(MagicObjects x, Interior y) {
+        System.out.println("Решительно потянул на себя "+y.toString()+". Внутри стоял неглубокий каменный " + x.toString() + ", опоясанный по краю резными письменами и символами.");
     }
 
-    @Override
     public void notsaw() {
         System.out.println("Ничего подобного "+getName()+" никогда не видел, даже не мог понять, жидкость это или газ.");
     }
@@ -82,13 +76,11 @@ public class HarryPotter extends Person implements Talk, Found, Extract, Rotate,
         System.out.println("Сунув голову в шкафчик," + getName() + " заглянул в сосуд.");
     }
 
-    @Override
     public void saw() {
         Hogwarts.hall x = new Hogwarts.hall("Зал");
         System.out.println(" Дна не было — где-то глубоко открывался " + x.getName() + ", как будто " + getName() + " смотрит в круглое окно, находящееся у нее в потолке.");
     }
 
-    @Override
     public void bent() {
         System.out.println("" + getName() + " склонился так низко, что почти коснулся носом подобия стекла.");
     }
@@ -98,24 +90,20 @@ public class HarryPotter extends Person implements Talk, Found, Extract, Rotate,
         System.out.println("Сердце у " + getName() + " сжалось: неужели всякого, кто сядет в кресло, прикуют к нему? ");
     }
 
-    @Override
     public void notsaw(MagicObjects x) {
         Hogwarts.hall y = new Hogwarts.hall("Зал");
         System.out.println("" + x.toString() + " был круглый, а " + y.getName() + " квадратный, и " + getName() + " не видел, что делается по углам.");
     }
 
-    @Override
     public void bend() {
         System.out.println("Наклонился еще ниже, завертел головой... И кончик носа коснулся прозрачной поверхности... ");
     }
 
-    @Override
     public void fly(MagicObjects z) {
         Hogwarts.office x = new Hogwarts.office("Кабинет Дамблдора");
         System.out.println("" + x.getName() + " вдруг покачнулся, Гарри полетел головой вперед внутрь " + z.toString() + ": никакого стекла не оказалось, и Гарри всосал в себя черный ледяной водоворот... ");
     }
 
-    @Override
     public void lookupp() {
         System.out.println("" + getName() + " поднял взгляд — никакого отверстия, высоко над ним сплошной каменный потолок");
     }
@@ -123,7 +111,6 @@ public class HarryPotter extends Person implements Talk, Found, Extract, Rotate,
         System.out.println("Тяжело дыша, " + getName() + " огляделся.");
     }
 
-    @Override
     public void rotated() {
         System.out.println("" + getName() + " повернулся к сидящему рядом волшебнику, и из груди у него вырвался изумленный возглас, разнесшийся эхом по всему залу.");
     }
