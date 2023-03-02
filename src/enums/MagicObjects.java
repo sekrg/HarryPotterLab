@@ -7,7 +7,8 @@ public enum MagicObjects {
     STICK("Волебшная палочка"),
     BOTTLE("Сосуд"),
     CASE("Футляре"),
-    WEAPON("Серебрянный мечь");
+    WEAPON("Серебряный меч");
+
 
 
     private String name;
@@ -20,7 +21,6 @@ public enum MagicObjects {
     public String toString() {
         return name;
     }
-
 
 
 }

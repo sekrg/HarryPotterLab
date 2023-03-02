@@ -8,7 +8,7 @@ import enums.*;
 public class Main {
     public static void main(String[] args) throws Throwable {
         HarryPotter harryPotter = new HarryPotter();
-        AlbusDombldor albusDombldor = new AlbusDombldor();
+        GreatWizard albusDombldor = new GreatWizard("Альбус Дамблдор");
         Group group = new Group();
         Gas gas = new Gas();
         Light light = new Light();
